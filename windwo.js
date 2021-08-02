@@ -64,3 +64,26 @@ img.src = "http://www.google.com/intl/en_ALL/images/logo.gif";
 //     : (num <= 10) ?  console.log('number is less then condition'):
 // }
 
+
+// url incodeing
+
+let url = 'https://mozilla.org/?name="sandeep&&plac="gurgaon"';
+console.log(url)
+
+let encodeUrl = encodeURI(url);
+console.log(encodeUrl)
+
+let urldecode = decodeURI(encodeUrl);
+
+console.log(urldecode)
+
+// ============================================
+// urnery operator
+let x = "100";
+
+console.log(typeof x)
+
+let y = +x;
+console.log(y)
+
+console.log(typeof y )

@@ -93,7 +93,7 @@ Example:- in bindCallApply.js
 Q.4 What is JSON and its common operations
 ============================================
 
-Ans.4 JSON is a text-based data which follow the javaScript object syntex. when we transmite the accros network just me transmite text file 
+Ans.4 JSON is a text-based data which follow the javaScript object syntex. when we transmite the accros network just me transmite text file
 JSON.parse(text) is use to convert the text to object
 JSON.stringify(object) Stringification: converting a native object to a string so it can be transmitted across the network
 
@@ -102,7 +102,7 @@ JSON.stringify(object) Stringification: converting a native object to a string s
 Q.5 What is the purpose of the array slice method
 ===================================
 Ans.5 slice return the shalow copy of portion of arry in to new array
-from starting position and End postion not count 
+from starting position and End postion not count
 =====================================
 Q.6 What is the purpose of the array splice method
 =============================================
@@ -134,11 +134,11 @@ Ams.9 == Equal to operator only compare the value not compare the data type
   ====================================================
 
   Ans.10 An arrow function is a shorter syntax for a function expression and does not have its own this, arguments, super,
-  
+
 =======================================================
 Q.11 What is a first class function
 ======================================================
-Ans.11 a Function that treted like a any other varible 
+Ans.11 a Function that treted like a any other varible
 the function takse a function as argument or return a function is called first class function
 
 =========================================
@@ -168,7 +168,7 @@ Ans.15 currying is work like clouse example in js file
 Q.16 What is a pure function
 ===================================================
 Ans.16 The function that alway return the result if the same argument passed in it does not depend only any state or data change
-during programing . it only depend only on the argument 
+during programing . it only depend only on the argument
 
 
 // Example -1 pure function
@@ -177,13 +177,13 @@ function priceAfterTax(productPrice) {
     return (productPrice * 0.20) + productPrice;
    }
 
-   it's depend on only argument 
+   it's depend on only argument
 
 //Example- 2 Unpure function
 
 var tax = 20;
 function calculateTax(productPrice) {
- return (productPrice * (tax/100)) + productPrice; 
+ return (productPrice * (tax/100)) + productPrice;
 }
 
 it depend on outer varible that's why it's a unpure function
@@ -208,7 +208,7 @@ Ans.18 var have function scop        1. let have block scop
 
 =============================================================
 Q.19 not important
-=============================================================      
+=============================================================
 
 ============================================================
 Q.20 How do you redeclare variables in switch block without an error
@@ -219,7 +219,7 @@ Ans.20 example in switch.js
 Q.21 What is the Temporal Dead Zone
 ==========================================================
 Ans.21  when we decare let varible it is hosted but not in Global scop it hosted in script scop
-that why we not exex let varible before inatelaze the value to them 
+that why we not exex let varible before inatelaze the value to them
 when we exces the let varible before inatlize that's the temperolar zone
 
 means the time between decareaction between initalization is temperolar Zone
@@ -232,10 +232,10 @@ the function as soon as it is define
 
 (function(){
 
-    
+
 })();
 
-Note:- The primary reason to use an IIFE is to obtain data privacy because any variables declared 
+Note:- The primary reason to use an IIFE is to obtain data privacy because any variables declared
 within the IIFE cannot be accessed by the outside world. i.e, If you try to access variables with
 IIFE then it throws an error as below,
 
@@ -249,19 +249,19 @@ Url :- https://medium.com/swlh/everything-you-need-to-know-about-javascript-modu
 ===========================================================================================================
 Q.24 What is memoization
 ===========================================================================================================
-Ans.24 in merozie.js 
+Ans.24 in merozie.js
 
 ===========================================================================================
 Q.25 What is Hoisting
 ===============================================================
-Ans.25 Hosting is a javaScript machanisim whear varible and function declation are move 
+Ans.25 Hosting is a javaScript machanisim whear varible and function declation are move
 on the top of there scop before code execution.
 Remenber that javascript only hoists declaration, not initalisation
 
 ================================================================
 Q.26 What are classes in ES6
 ==============================================================
-Ans.26  In ES6 classe are syntitc suger over javascript proptotype inheratence 
+Ans.26  In ES6 classe are syntitc suger over javascript proptotype inheratence
 
 ===================================
 Q.27 What are closures
@@ -270,7 +270,7 @@ Ans.27 clouser is a combination of  function and bundel Together with refrence t
 In other words, a closure gives you access to an outer function's scope from an inner function.
 
 =============================================================
-Q.30 What is scope in javascript 
+Q.30 What is scope in javascript
 ===========================================================
 Ans.30 scoping is determin where is varible , function, object are accesible when the code during Runtime
 this mean scop of varible is controlr by the location of varible declation
@@ -286,7 +286,7 @@ important Artical  Read again deep when watch namste javaScript
 =============================================
 Q.31 What is a service worker
 ===========================================
-Ans.32 this is related to PWA 
+Ans.32 this is related to PWA
 learn later first complet all the related javaScript question
 
 ====================================
@@ -309,10 +309,10 @@ Q.35 What is web storage
 ===================================
 Ans.3 https://medium.com/@codebyamir/web-storage-api-localstorage-sessionstorage-c464474feab7
 
-web stroge is an API that's proved machanisem by browser to store data in form of key value pare in the client 
-side 
+web stroge is an API that's proved machanisem by browser to store data in form of key value pare in the client
+side
 
-for store data we can use 
+for store data we can use
 1. cookies
 2. localstorage
 3. session
@@ -320,8 +320,8 @@ for store data we can use
 ==================================
 Q.36 What is a post message
 ====================================
-Ans.36 when a web application needs to intract with another web application and you want to send data message betwwen 
-window in a safe way 
+Ans.36 when a web application needs to intract with another web application and you want to send data message betwwen
+window in a safe way
 the window postMessage() is a method that allow us to send to recive data message between two window.
 
 Note:- it's a diffrenent topic
@@ -344,7 +344,7 @@ q.39 What are the options in a cookie
 Ans.39 By default cookies is deleted when the browser is closed
 but we can change the bhavior of this by seting expire Time
 
-By default, the cookie belongs to a current page. But you can tell the browser 
+By default, the cookie belongs to a current page. But you can tell the browser
 what path the cookie belongs to using a path parameter.
 
 document.cookie = "username=John; path=/services";
@@ -377,11 +377,11 @@ we didn't send data to server
 Q.48 How do you check web storage browser support
 =================================================
 
-Ans.48 
+Ans.48
 if(typeof(Storage)!== "undefined"){
     alert('storage')
 
-    write here code localstorge or session storge 
+    write here code localstorge or session storge
 }else{
   Ager storage sport nahi karta to koi dura tarik likna hoga
     alert('No storage')
@@ -462,7 +462,7 @@ or any one of them gets reject
 ============================================================
 Q.64 What is the purpose of the race method in promise
 ===========================================================
-Ans.64 promis.rece([]) takes the promise as array 
+Ans.64 promis.rece([]) takes the promise as array
 those promise first resolve or reject the code is execute.
 
 =============================================
@@ -474,7 +474,7 @@ in this method which promise is resolve first the code is execute reject promise
 Q.66 What is a strict mode in javascript
 ==============================================================================
 Ans.66 Strict Mode is a new feature in ECMAScript 5
-that allows you to place a program, or a function, in a “strict” operating context. 
+that allows you to place a program, or a function, in a “strict” operating context.
 This way it prevents certain actions from being taken and throws more exceptions
 
 ======================================================
@@ -485,7 +485,7 @@ Ans.67 Strict mode is useful to write "secure" JavaScript by notifying "bad synt
 =============================
 Q.68 How do you declare strict mode
 ===================================
-Ans.68 he strict mode is declared by adding "use strict"; to the beginning of a script or a function. If declared at the beginning of a script, 
+Ans.68 he strict mode is declared by adding "use strict"; to the beginning of a script or a function. If declared at the beginning of a script,
 it has global scope.
 
 ================================
@@ -517,7 +517,7 @@ Ans.73 Null value represent the inital object is empty
 ======================================================
 Q.74 What is the difference between null and undefined
 ======================================================
-Ans.74 
+Ans.74
 Null
 1.Converted to zero (0) while performing primitive operations
 -------------
@@ -532,7 +532,7 @@ Ans.75 evel is dngruges only learn jut shake of know
 ================================================
 Q.76 What is the difference between window and document
 =================================================
-Ans.76 
+Ans.76
 window
 1. It is the root level element in any web page
 2. By default window object is available implicitly in the page
@@ -541,7 +541,7 @@ window
 ----------------------------------------
 document
 1. It is the direct child of the window object. This is also known as Document Object Model(DOM) Examle window.document
-2. we can access it via window.document or document 
+2. we can access it via window.document or document
 3. It provides methods like getElementById, getElementsByTagName, createElement etc
 
 ===============================================================
@@ -560,13 +560,13 @@ Ans.78 e.getModifierState("capsLook");
 ==================================================
 Q.79 What is isNaN
 ================================================
-Ans.79 isNaN is use to is not a number 
+Ans.79 isNaN is use to is not a number
 if the given value is any string is give the result true if value is number it give us false
 
 =========================================================================================
 Q.80 What are the differences between undeclared and undefined variables
 =========================================================================================
-Ans.80 if we not declare the varible and use Throw error undeclare 
+Ans.80 if we not declare the varible and use Throw error undeclare
 if we declare varible and not initalize value
 
 =======================================================================================
@@ -577,13 +577,13 @@ Ans.81 a varible decalear outside the function or declarer with window which can
 =================================================================
 Q.82 What are the problems with global variables
 ================================================================
-Ans.83 This is because global variables are easily overwritten by other scripts. 
+Ans.83 This is because global variables are easily overwritten by other scripts.
 
 ==================================================================
 Q.83 What is an event flow
 ================================================================
 Ans.83 Event flow is the oder in which in which event recive in on web page
-when we click on event which is attach to nested elemt like we click on child or perant 
+when we click on event which is attach to nested elemt like we click on child or perant
 the wevent flow work on two ways
 1. bubling is botom to top flow
 2. capturing :- is top to botom event flow
@@ -618,7 +618,7 @@ Q.91 What is the difference between native, host and user objects
 ============================================================
 Ans.91 native object are object that the part of javaScript like math, regex,string'
 host object are object that provide by browser like window , DOM node
-use object are object that are create by own like user profile details 
+use object are object that are create by own like user profile details
 
 ==============================================
 Q.92 What are the tools or techniques used for debugging JavaScript code
@@ -628,19 +628,19 @@ Ans.92 console , google Dev tool
 ========================================================================
 Q.93 What are the pros and cons of promises over callbacks
 ========================================================================
-Ans.93 
+Ans.93
 pros means benifites
 1. it avoid the call back hell
 2. Easy to write parllel asyncronus  sequence code promise.all;
 
-cons:- 
+cons:-
 1. It makes little complex code
 2. You need to load a polyfill if ES6 is not supported
 
 =======================================================
 Q.94 What is the difference between an attribute and a property
 ======================================================
-Ans.94 
+Ans.94
 <input type="text" value="Name:">
 
 Attrubut:- type , value is a attribute
@@ -651,17 +651,17 @@ property are - name, text
 Q.95 What is same-origin policy
 ===================================
 Ans.95 the same-origin policy is critical security machanisim that restric how document or script loaded by one orign from the other
-Pendding i will study when i test 
+Pendding i will study when i test
 
 ===================================================
 Q.96 What is the purpose of void 0
 ==================================================
-Ans.96 void 
+Ans.96 void
 
-mostely void ka use Ancor Tag k sath hota hai 
-jab hum kisi anchor kag pr click karte hai to url to reiect karte hai 
+mostely void ka use Ancor Tag k sath hota hai
+jab hum kisi anchor kag pr click karte hai to url to reiect karte hai
 
-void ka use karne se abchor tag work to kare gaa pr url ko rediect nahi kare gaa 
+void ka use karne se abchor tag work to kare gaa pr url ko rediect nahi kare gaa
 
 =============================================
 Q.97 Is JavaScript a compiled or interpreted language
@@ -677,7 +677,7 @@ Ans.98 yse javaScript is case-censtive
 Q.99 Is there any relation between Java and JavaScript
 =====================================================
 Ans.99 no realtion between java and javaScript there are both of diffrent langauge
-but both of object orented programing langauge 
+but both of object orented programing langauge
 
 ========================================
 Q.100 What are events
@@ -687,7 +687,7 @@ Ans.100 Event are thing that happen on HTML and when javascript is use in HTML i
 ===========================
 Q.101 What is the use of preventDefault method
 ===================================
-Ans.101 preventDefault cancle the default bhaviour of event 
+Ans.101 preventDefault cancle the default bhaviour of event
 Note:- Remember that not all events are cancelable.
 
 ========================================
@@ -706,7 +706,7 @@ by using preventDefault()
 Q.105 What is BOM
 ===================================
 Ans.105 Browser Object Model allow to  javascript talk to browser
-window Object is the very root element every thing else attche to it 
+window Object is the very root element every thing else attche to it
 
 =======================================================
 Q.106 What is the use of setTimeout
@@ -721,7 +721,7 @@ Ans.107 setTInterver is use to call the function at spacify interver in miliseco
 ===========================================================
 Q.108 Why is JavaScript treated as Single threaded
 ===========================================================
-Ans.108 javasCript Engine have only one call Stack and only one time one code execute 
+Ans.108 javasCript Engine have only one call Stack and only one time one code execute
 multipal code is not executed.
 
 =================================================
@@ -734,17 +734,17 @@ example:- ok
 =============================================================================================
 Q.110 What is ECMAScript
 ============================================================================================
-A.110 only Thory for knowlege i lerned after this 
+A.110 only Thory for knowlege i lerned after this
 ===========================================================================================
 Q.111 What is JSON
 ===========================================================================================
-Ans.111 json is a javaScript extence text based data which structor like javaScript object 
+Ans.111 json is a javaScript extence text based data which structor like javaScript object
 when we interchanging the data client to server data transfer in form for text which is json
 
 =====================================================================
 Q.112 What are the syntax rules of JSON
 =====================================================================
-Ans.112 
+Ans.112
 1.The data is in name/value pairs
 2.The data is separated by commas
 3.Curly braces hold objects
@@ -763,7 +763,7 @@ Ans.114 when we transmite the data in to server the data in form of string and w
 ===================================================
 Q.115 What is the purpose of clearTimeout method
 ==================================================
-Ans.115 The clearTimeOut() is use to clear the time 
+Ans.115 The clearTimeOut() is use to clear the time
 when we use setTimeOut it return the value and store in valible
 
 the varible pass to the clearTimeOut to clear TimeOut
@@ -771,7 +771,7 @@ the varible pass to the clearTimeOut to clear TimeOut
 ==========================================================
 Q.116 What is the purpose of clearInterval method
 ==========================================================
-Ans.116 the setInterval return the value store in varible 
+Ans.116 the setInterval return the value store in varible
 
 we use cleanInterval to clear the interveal
 
@@ -783,7 +783,7 @@ Ans.117 history.location.hrf = "/about"
 Q.120 How do you check whether a string contains a substring
 ===========================================================
 Ans.120  use inclue means this string is inclued in the string
-2. indexOf string !== -1 :- means ager koi string hoga to index number return kare gaa varna -1 
+2. indexOf string !== -1 :- means ager koi string hoga to index number return kare gaa varna -1
 matlab ki ager -1 nahi to string hoga
 
 ====================================
@@ -835,7 +835,7 @@ Ans.127 ok
 ===========================================================
 Q,130 What are the pros and cons of for loop
 =============================================================
-Ams.130 
+Ams.130
 for loop intate every value
 You can use break and continue flow control statements
 
@@ -909,12 +909,12 @@ Ans. argument.length
 =========================================================================
 Q.142 What is a polyfill
 =========================================================================
-Ans.142 polyfile convert the moder javaScript code to older 
+Ans.142 polyfile convert the moder javaScript code to older
 
 ======================================
 Q.143 What are break and continue statements;
 ===========================================
-Breack :- whean we loop and put soome condition 
+Breack :- whean we loop and put soome condition
 whean code reach that condition stop the loop
 
 Continu: - when loop reach that condition skip the given ccondition Then continu
@@ -938,7 +938,7 @@ It reduces the possibility of unwanted re-declarations
 ========================================================
 Q.146  How do you define JSON arrays
 ========================================================
-Ans.146 
+Ans.146
 JSON array are writen inside the Brackets and array containes javaScript Objects
 
 "users":[
@@ -950,7 +950,7 @@ JSON array are writen inside the Brackets and array containes javaScript Objects
 =======================================================
 Q.149 How do you generate random integers
 =======================================================
-Ans.149 
+Ans.149
 
 Math.floor(Math.random() * 10) + 1;
 
@@ -958,7 +958,7 @@ Math.floor(Math.random() * 10) + 1;
 Q.151 What is tree shaking
 =======================================================
 Ans.151 when we use import export module in javaScript most of codes are usused code floating around
-Tree shaking or dead code elemation means that unused modules will not included in bundel during the procces of 
+Tree shaking or dead code elemation means that unused modules will not included in bundel during the procces of
 the build process
 
 webpack detect the unused code and mark as a unused code but it won't remove the code webpack relies on minfiers
@@ -973,12 +973,12 @@ for clenUp code use Uglifyjs plugin.
 ========================================
 Q.152 What is the need of tree shaking
 =========================================
-Ans.152 
+Ans.152
 
 Example :- we have 2 files modul.js , index.js
 
 modul.js
-export const sayHello = name => `Hello ${name}!`; 
+export const sayHello = name => `Hello ${name}!`;
 
 export const sayBye = name => `Bye ${name}!`
 
@@ -986,7 +986,7 @@ have 2 function
 
 -------------------------
 index.js
-import { sayHello } from './module'; 
+import { sayHello } from './module';
 
 sayHello('World');
 
@@ -1031,7 +1031,7 @@ Ans.163 The debugger keyword is used in the code to force stop the execution of 
  ============================================
  Q.164 What is the purpose of breakpoints in debugging
  ===================================================
- Ans.164 You set breakpoints wherever you want to pause debugger execution. 
+ Ans.164 You set breakpoints wherever you want to pause debugger execution.
 
  ============================================
  Q.165 Can I use reserved words as identifiers
@@ -1051,7 +1051,7 @@ Ans.168 test ok learn aboy new Image();
 =========================================================
 Q.168 How do you make synchronous HTTP request
 =========================================================
-Ans.168 
+Ans.168
 
 function httpGet(theUrl)
 {
@@ -1091,12 +1091,12 @@ Ans.172 window.innerHeight
 ========================================================
 Q.173 What is a conditional operator in javascript
 ========================================================
-Ans.173 ternary operator 
+Ans.173 ternary operator
 
 =========================================================
 Q.174 Can you apply chaining on conditional operator
 ========================================================
-Ans.174 yes,  i try but not understand in deep if else condition 
+Ans.174 yes,  i try but not understand in deep if else condition
 
 =======================================================
 Q.175 What are the ways to execute javascript after page load
@@ -1154,7 +1154,7 @@ Ans. first latter capital karne hai ok
 Q.183 How do you detect javascript disabled in the page
 =====================================================
 Ans.183 use <noscript> </noscript>  when javaScript is disable the code is run which is in noScript
-Note:- how can use in real world test 
+Note:- how can use in real world test
 
 
 =================================================================
@@ -1169,7 +1169,7 @@ Ans.185 ...rest paramter sholud be last parmeter as it job it collect  all the  
 ===================================================================
 Q.186 What is a spread operator
 =======================================================
-Ans.186 sprated operation allows itrable to be expanded  to single argument 
+Ans.186 sprated operation allows itrable to be expanded  to single argument
 
 function calculateSum(x, y, z) {
   return x + y + z;
@@ -1192,7 +1192,7 @@ Object.is([], []) false
 ====================================================
 Q.189 What is the purpose of using object is method
 ====================================================
-Ans.189 
+Ans.189
 It is used for comparison of two strings.
 It is used for comparison of two numbers.
 It is used for comparing the polarity of two numbers.
@@ -1201,7 +1201,7 @@ It is used for comparison of two objects.
 =================================================
 Q.190 How do you copy properties from one object to other
 ==================================================
-Ans.189 
+Ans.189
 Object.assign(target , soucce)
 
 const newObject = Object.assign(target , soucce)
@@ -1220,12 +1220,332 @@ Ans.193 pending new Topic
 Q.193 What is the purpose of seal method
 ==============================================
 Ans.193 seal method prevent add new propert in object
-but we can change existing property value 
+but we can change existing property value
 it makes object immutable
 
 ===============================================
 Q.194 What are the differences between freeze and seal methods
 ================================================
+Ans. freeze not add or change anything in object
+but seal can change the property value
+
+=======================================================
+Q.195 How do you determine if an object is sealed or not
+=========================================================
+Ans.196 use isSeal(personObject);
+
+=====================================================
+Q.196 How do you get enumerable key and value pairs
+=====================================================
+Object.entries
+
+================================================
+Q.197 What is the main difference between Object.values and Object.entries method
+================================================
+Object.value return only array of value
+object.enteties retiurn Key value pairs of arrays
+
+====================================================
+Q.201 How can you get the list of keys of any object
+===================================================
+Ans.201 Object.key(personObj)
+==================================================
+Q.202 How do you create an object with prototype
+=================================================
+Ans.202
+The Object.create() method is used to create a new object with the specified prototype object and properties
+
+
+ const user = {
+   name: 'John',
+   printInfo: function () {
+     console.log(`My name is ${this.name}.`);
+   }
+ };
+
+ const admin = Object.create(user);
+
+ admin.name = "nick"; // Remember that "name" is a property set on "admin" but not on "user" object
+
+ admin.printInfo(); // My name is Nick
+ user.printInfo() // My name is john
+
+ ye mere hisab se construtor ki thra kam kar rha hai
+
+ ====================================================
+ Q.203 What is a WeakSet
+ ====================================================
+ Ans.203 i read the artical this is related to object
+ i read agin when solve all the object question
+
+ ======================================================
+ Q.204 What are the differences between WeakSet and Set
+ ======================================================
+ Ans.204 object topic
+
+ ===================================================
+ Q.205 List down the collection of methods available on WeakSet
+ =============================================================
+ Ans.205 object Topic
+
+ ========================================================
+ Q.206 What is a WeakMap
+ =========================================================
+ Ans.206 Object Topic
+
+ =============================================
+ Q.207 What are the differences between WeakMap and Map
+ ==============================================
+ Ans.207 Object Topic
+
+ ==============================================================
+ Q.208 List down the collection of methods available on WeakMap
+ ===============================================================
+ Ans.208 object Topic
+
+ =========================================================
+ Q.209 What is the purpose of uneval
+ ========================================================
+ Ans.209
+ Notic:- This feature is non-standard and is not on a standards track. Do not use it on production sites
+ facing the Web: it will not work for every user. There may also be large incompatibilities between
+ implementations and the behavior may change in the future.
+
+ ===============================================
+ Q.210 How do you encode an URL
+ =============================================
+ Ans.210 encodeURL for url encodeing
+ decodeURL use for decoding url
+
+ ====================================================
+ Q.212 How do you print the contents of web page
+ =================================================
+ ans.212 window.print()
+
+ ==================================================
+ Q.213 What is an anonymous function
+ =================================================
+ Ans.213
+ 1. cosnt myFun = function(){
+
+ }
+
+ 2. (function(){
+
+ })()
+
+ function (optionalParameters) {
+  //do something
+}
+
+const myFunction = function(){ //Anonymous function assigned to a variable
+  //do something
+};
+
+[1, 2, 3].map(function(element){ //Anonymous function used as a callback function
+  //do something
+});
+
+======================================================================
+Q.215 What is the precedence order between local and global variables
+====================================================================
+Ans.215 under stand this question when revise varible
+
+==============================================================
+Q.216 What are javascript accessors
+=============================================================
+Ans.216 Object Topic
+
+===========================================================
+Q.217 How do you define property on Object constructor
+==========================================================
+Ans.217 Objet Topic
+=======================================================
+Q.218 What is the difference between get and defineProperty
+======================================================
+Ans.218 Object Topic
+
+=================================================
+Q.219 What are the advantages of Getters and Setters
+==============================================
+Ans.219 Object Topic
+
+==============================================================
+Q.219 Can I add getters and setters using defineProperty method
+==============================================================
+Ans.219 Object Topic
+
+==============================================================
+Q.220 What is the purpose of switch-case
+=============================================================
+Asn.220 The switch case statement in JavaScript is used for decision making purposes.
+In a few cases, using the switch case statement is going to be more convenient
+than if-else statements. The syntax would be as below,
+
+==================================================================
+Q.221 What are primitive data types
+==================================================================
+Ans.221 primitive data type is a value which have no method or property
+
+1.straing
+2.boolen
+3.number
+4.undefined
+5.null
+6.symbole
+7.bigint
+
+==============================================================
+Q.222 What are the different ways to access object properties
+==============================================================
+Ans.222 
+object.name
+object["name"]
+object[name]    
+
+=========================================
+Q.225 What are the function parameter rules
+=============================================
+Ans.225 ok but chek topic again for explain beeter
+
+================================================
+Q.226 What is an error object
+=============================================
+Ans.226 error object build in error object provide the error information when error occur 
+it has two value 
+1. name
+2. message
+
+================================================================
+Q.227 When you get a syntax error
+==================================================================
+Ans.227 when we execute the code make the syntex mistak in code
+it throw the sytex error
+
+===================================================================
+Q.228 What are the different error names from error object
+===================================================================
+Ans.228 There are 6 erors
+1. syntex error
+2. type Error = when opertion is performing with wrong data Type
+ Exampel = let num = 2 num.toUpperCase() this method for string not for number
+3. eval Error
+4. refrence error
+5. URI error
+6.Range Error
+
+==================================================
+Q.229 What are the various statements in error handling
+======================================================
+Ans.229
+try catch , throw
+
+======================================================
+Q.230 What are the two types of loops in javascript
+=====================================================
+Ans.230 
+1. Entry Controll Loop :- test condition before enter in loop
+2. Exit Controll Loop : test condition after enter in loop
+
+===========================================================
+Q.231 What is nodejs
+==========================================================
+Ans.231 Node js is javaScript run time enviroment which run the javascript out side the browser
+===============================================
+Q.232 What is an Intl object
+=================================================
+Ans.232 By adapting our apps for different languages and countries,
+we provide a better user experience. It’s simpler for users to deal 
+with known notations for dates, currencies, and numbers.
+
+=================================================================
+Q.233 What is an Iterator
+=================================================================
+Ans.233 itrator is an object which define a sequence return a value upon it termination
+It implements the Iterator protocol with a next() method
+which returns an object with two properties: 
+the next value is done true
+
+===================================================
+Q.235 What is an event loop
+========================================
+Ans.235 Event loop :- when we run our code asyncronosly event loop is one of them play the to make code asyncronosly
+
+when we call asyncronus code it taks call back function it register on web Api
+when code goes to execute it go to callBack quey
+
+and call stck run code one by one event loop continusly moniter the call back quey and call stack 
+when call stack empty by the help of Event Loop code goes to call stack and execute 
+
+
+====================================
+Q.236 What is call stack
+===================================
+Ans.236  A call stack is a mechanism for an interpreter
+so we can store the latest function call at the top
+one the function is execute the last execution is remove
+
+
+==============================================
+Q.237 What is an event queue
+===========================================
+Ans.237 Event query is resposible to send new function to event loop
+maintain the correct sequenc which all operation be sent for execution
+
+===============================================
+Q.238 What is a decorator
+===============================================
+Ans.238 Seprate Topic
+
+===============================================
+Q.239  What are the properties of Intl object
+================================================
+Ans.240 intl topic 
+
+===================================================
+Q.240 What is an Unary operator
+================================================
+Ans.241 when we add + befor varible is a urnery operator 
+which is use to convert string to number 
+when any string is like number it convert in to number
+if any string is not a number nan  not a number
+
+=======================================================
+Q.241 How do you sort elements in an array
+=======================================================
+Ans.241 Change - 1
+
+=================================================================
+Q.242 What is the purpose of compareFunction while sorting arrays
+==================================================================
+Ans.242 sort method of Array sort the array Element on the basice of string alpha bate method
+when we use on number the result show wrong 
+by the help of compare method show the result Right
+
+======================================================
+Q.243 How do you reversing an array
+=======================================
+Ans.243 revers method use to revers the Array Element
+
+=====================================================
+Q.244 How do you find min and max value in an array
+===================================================
+Ans.244 chalange -3 
+URL :- https://medium.com/@vladbezden/how-to-get-min-or-max-of-an-array-in-javascript-1c264ec6e1aa;
+
+==============================================================
+Q.245 How do you find min and max values without Math functions 
+===============================================================
+Ans.245 5 Methods Chalange -4 
+
+=======================================
+Q.246 What is an empty statement and purpose of it
+==============================================
+Ans.246 pending
+=============================================
+Q.247 How do you get metadata of a module
+============================================
+Ans.247 pending
 */
 
 
