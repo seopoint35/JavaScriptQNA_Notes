@@ -1398,10 +1398,10 @@ Ans.221 primitive data type is a value which have no method or property
 ==============================================================
 Q.222 What are the different ways to access object properties
 ==============================================================
-Ans.222 
+Ans.222
 object.name
 object["name"]
-object[name]    
+object[name]
 
 =========================================
 Q.225 What are the function parameter rules
@@ -1411,8 +1411,8 @@ Ans.225 ok but chek topic again for explain beeter
 ================================================
 Q.226 What is an error object
 =============================================
-Ans.226 error object build in error object provide the error information when error occur 
-it has two value 
+Ans.226 error object build in error object provide the error information when error occur
+it has two value
 1. name
 2. message
 
@@ -1443,7 +1443,7 @@ try catch , throw
 ======================================================
 Q.230 What are the two types of loops in javascript
 =====================================================
-Ans.230 
+Ans.230
 1. Entry Controll Loop :- test condition before enter in loop
 2. Exit Controll Loop : test condition after enter in loop
 
@@ -1455,7 +1455,7 @@ Ans.231 Node js is javaScript run time enviroment which run the javascript out s
 Q.232 What is an Intl object
 =================================================
 Ans.232 By adapting our apps for different languages and countries,
-we provide a better user experience. It’s simpler for users to deal 
+we provide a better user experience. It’s simpler for users to deal
 with known notations for dates, currencies, and numbers.
 
 =================================================================
@@ -1463,7 +1463,7 @@ Q.233 What is an Iterator
 =================================================================
 Ans.233 itrator is an object which define a sequence return a value upon it termination
 It implements the Iterator protocol with a next() method
-which returns an object with two properties: 
+which returns an object with two properties:
 the next value is done true
 
 ===================================================
@@ -1474,8 +1474,8 @@ Ans.235 Event loop :- when we run our code asyncronosly event loop is one of the
 when we call asyncronus code it taks call back function it register on web Api
 when code goes to execute it go to callBack quey
 
-and call stck run code one by one event loop continusly moniter the call back quey and call stack 
-when call stack empty by the help of Event Loop code goes to call stack and execute 
+and call stck run code one by one event loop continusly moniter the call back quey and call stack
+when call stack empty by the help of Event Loop code goes to call stack and execute
 
 
 ====================================
@@ -1500,13 +1500,13 @@ Ans.238 Seprate Topic
 ===============================================
 Q.239  What are the properties of Intl object
 ================================================
-Ans.240 intl topic 
+Ans.240 intl topic
 
 ===================================================
 Q.240 What is an Unary operator
 ================================================
-Ans.241 when we add + befor varible is a urnery operator 
-which is use to convert string to number 
+Ans.241 when we add + befor varible is a urnery operator
+which is use to convert string to number
 when any string is like number it convert in to number
 if any string is not a number nan  not a number
 
@@ -1519,7 +1519,7 @@ Ans.241 Change - 1
 Q.242 What is the purpose of compareFunction while sorting arrays
 ==================================================================
 Ans.242 sort method of Array sort the array Element on the basice of string alpha bate method
-when we use on number the result show wrong 
+when we use on number the result show wrong
 by the help of compare method show the result Right
 
 ======================================================
@@ -1530,13 +1530,13 @@ Ans.243 revers method use to revers the Array Element
 =====================================================
 Q.244 How do you find min and max value in an array
 ===================================================
-Ans.244 chalange -3 
+Ans.244 chalange -3
 URL :- https://medium.com/@vladbezden/how-to-get-min-or-max-of-an-array-in-javascript-1c264ec6e1aa;
 
 ==============================================================
-Q.245 How do you find min and max values without Math functions 
+Q.245 How do you find min and max values without Math functions
 ===============================================================
-Ans.245 5 Methods Chalange -4 
+Ans.245 5 Methods Chalange -4
 
 =======================================
 Q.246 What is an empty statement and purpose of it
@@ -1546,6 +1546,145 @@ Ans.246 pending
 Q.247 How do you get metadata of a module
 ============================================
 Ans.247 pending
+
+====================================
+Q.248 What is a comma operator
+=====================================
+Ans.248 commin operator use to evlaute operation left to right;
+
+========================================
+Q.254 What is an object initializer
+=======================================
+Ans.254  about object how it initalize
+
+var initObject = {a: 'John', b: 50, c: {}};
+
+console.log(initObject.a); // John
+
+=============================
+Q.255 How do you get the prototype of an object
+=====================================
+Ans.255 pending
+
+=============================
+Q.256 What happens If I pass string type for getPrototype method
+==============================
+Ans.256 Pending
+
+===========================
+Q.257 to 264
+=======================
+Ans.257 Object Topic
+
+==============================
+Q.265 What Is Obfuscation in javascript
+============================
+Ans.265 new Topic
+
+===========================
+Q.275 Is enums feature available in javascript
+=============================================
+Ans.275 no , but diffrent method
+it is long Topic learn later
+
+==========================================
+Q.280 , 281, 282 How do you list all properties of an object
+==========================================
+Ans.276 Object Topic
+
+===========================
+Q.283 How do you extend classes
+=============================
+Ans.283 By Calling super
+
+==================================
+Q.284 How do I modify the url without reloading the page
+====================================
+Ans.284 The window.location.url property will be helpful to modify the url but it reloads the page. 
+HTML5 introduced the history.pushState() and history.replaceState() methods, which allow you to add
+and modify history entries, respectively. For example, you can use pushState as below,
+===========================================================================
+Q.285 How do you check whether an array includes a particular value or not
+===========================================================================
+Ans.285 Array.include() return true or false
+
+==================================================
+Q.286 How do you compare scalar arrays
+============================================
+Ans.286 Scaler Array means two same Array 
+ki use Array me sabhi value same hai to dusre me hai 
+vo aage pech bhi ho skti hai
+
+use arry.length to compare 
+Arry.every method and compare 
+
+===============================================
+Q.287 How to get the value from get parameters
+================================================
+Ans.287
+ let urlString = "http://www.some-domain.com/about.html?x=1&y=2&z=3"; //window.location.href
+ let url = new URL(urlString);
+ let parameterZ = url.searchParams.get("z");
+ console.log(parameterZ); // 3
+
+ ======================================
+ Q.288 How do you print numbers with commas as thousand separators
+ =================================
+ Ans.288 
+ function convertToThousandFormat(x){
+  return x.toLocaleString(); // 12,345.679
+}
+
+console.log(convertToThousandFormat(12345.6789));
+
+===========================================
+Q.290 Does JavaScript supports namespace
+==========================================
+no 
+matlab ek hi name se do function bnye gey to jo phle k bad banya hai use call kare gaa 
+yaa error bhi show kar sakta hai
+
+=========================================================
+Q.291 How do you declare namespace
+=======================================================
+Ans.291 local scop me name spacing create kar skte hai 
+
+IFFE ka use karke 
+object k ander use kar ke
+
+================================================
+Q.293 How do get the timezone offset from date
+============================================
+Ans.293 date topic
+
+==========================================
+Q.294 How do you load CSS and JS files dynamically
+==================================================
+Ans.295 long topic
+=============================================
+Q.295 What are the different methods to find HTML elements in DOM
+===========================================
+Ans.295 documet.getElementById(), class querySelector
+
+========================================
+Q.296 What is V8 JavaScript engine
+=======================================
+Ans.296 v8 Engine is open source height-performance javascript enging
+which is use by google crome whhic is writen in c++
+
+==============================
+Q.297 Why do we call javascript as dynamic language
+================================================
+Ans.297 https://www.freecodecamp.org/news/what-is-javascript-definition-of-js/
+
+=================================
+Q.298 What is a void operator
+=================================
+Ans.298 learn agn
+
+=================================================================================================
+
+
 */
 
 
