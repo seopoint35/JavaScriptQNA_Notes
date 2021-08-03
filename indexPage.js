@@ -1682,9 +1682,184 @@ Q.298 What is a void operator
 =================================
 Ans.298 learn agn
 
-=================================================================================================
+================================================================================================= 
+Q.301 How do you create an infinite loop;
+==========================================
+Ans.301 this is for Knowlege not use in code 
 
+for (;;) {}
+while(true) {
+}
 
+========================================
+Q.302 Why do you need to avoid with statement
+========================================
+Ans.302 not important
+
+==============================
+Q.303 What is the output of below for loops
+======================================
+Ans.303 example in loop
+
+=================================
+Q.304 List down some of the features of ES6
+=========================================
+Ans.304 
+1. Classes
+2. Arrow function
+Support for constants or immutable variables
+Block-scope support for variables, constants and functions
+Arrow functions
+Default parameters
+Rest and Spread Parameters
+Template Literals
+Multi-line Strings
+Destructuring Assignment
+Enhanced Object Literals
+Promises
+Classes
+Modules
+
+===========================================
+Q.305 What is ES6
+=========================================
+Ans.305 ES6 is the sixth edition of the javascript language and it was released in June 2015.
+ It was initially known as ECMAScript 6
+
+ ====================================
+ Q.306 Can I redeclare let and const variables
+ ======================================
+ Ans.306 no
+ ==============================
+ Q/307 Is const variable makes the value immutable
+ ==========================================
+ Ans. for const
+ ========================================
+ Q.308 What are default parameters
+ ===========================================
+ Ans.308 use || operator ES5
+ 
+ //ES6
+var calculateArea = function(height = 50, width = 60) {
+   return width * height;
+}
+
+console.log(calculateArea()); //300
+
+===============================
+Q.309 , 310, 311 What are template literals
+=================================
+Ans.309 tempalte litra allow to use expression
+
+=============================
+Q.314 What is destructuring assignment
+==================================
+Ans.314 
+var [one, two, three] = ['JAN', 'FEB', 'MARCH'];
+
+console.log(one); // "JAN"
+console.log(two); // "FEB"
+console.log(three); // "MARCH"
+
+var {name, age} = {name: 'John', age: 32};
+
+console.log(name); // John
+console.log(age); // 32
+
+=================================
+Q.315 What are default values in destructuring assignment
+=============================================
+Arrays destructuring:
+var x, y, z;
+
+[x=2, y=4, z=6] = [10];
+console.log(x); // 10
+console.log(y); // 4
+console.log(z); // 6
+
+Objects destructuring:
+var {x=2, y=4, z=6} = {x: 10};
+
+console.log(x); // 10
+console.log(y); // 4
+console.log(z); // 6
+
+==========================================
+Q.316 How do you swap variables in destructuring assignment
+======================================
+Ans.316 
+var x = 10, y = 20;
+
+[x, y] = [y, x];
+console.log(x); // 20
+console.log(y); // 10
+
+===========================================
+Q.317 What are enhanced object literals
+===========================================
+Ans.317 
+//ES6
+var x = 10, y = 20
+obj = { x, y }
+console.log(obj); // {x: 10, y:20}
+//ES5
+var x = 10, y = 20
+obj = { x : x, y : y}
+console.log(obj); // {x: 10, y:20}
+
+================================
+Q.361 How do you get unique values of an array
+===========================================
+Ans.361 important
+====================
+Q.363 How do you map the array values without using map method
+=================================
+Ans.363 important
+
+=============================
+Q.363 How do you empty an array
+===============================
+Ans.363 
+let cities = ['Singapore', 'Delhi', 'London'];
+cities.length = 0; // cities becomes []
+
+=========================================
+Q.367 What is the easiest way to convert an array to an object
+========================================
+Ans.367 
+var fruits = ["banana", "apple", "orange", "watermelon"];
+var fruitsObject = {...fruits};
+console.log(fruitsObject); // {0: "banana", 1: "apple", 2: "orange", 3: "watermelon"}
+
+========================================
+Q.376 How do you flattening multi dimensional arrays
+=====================================
+Ans.367 practics
+
+================================
+Q.377 How to cancel a fetch request
+=================================
+Ans.377 see the artical
+
+=============================
+Q.378 What is web speech API
+===========================
+Ans.378 make small project
+
+=========================
+Q.379 What is minimum timeout throttling
+====================================
+Ams.379 watch aaksh saini video and read artical
+
+=============================
+Q.392 What are the differences between promises and observables
+================================================
+Ans.392 
+
+==================================================================================
+Q.401 What is the difference between Function constructor and function declaration
+==================================================================================
+Ans.401 
 */
 
 
