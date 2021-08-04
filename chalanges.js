@@ -113,6 +113,11 @@ console.log(`min value of Array is ${forFoormin} and max value of Array is ${for
 
 */
 
+//Q.129  How do you make first letter of the string in an uppercase;
+ 
+ 
+
+
 
 
 
