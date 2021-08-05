@@ -423,5 +423,59 @@ Note: You can't apply array methods on arguments object. But you can convert int
      name: "mobile",
      price : 5678
   }
-    
 
+  // Q.190 Object.is method :- is use to compare 2 value
+  /*
+  1. compare string
+  2. null
+  3.
+
+  */
+
+
+  // console.log(  Object.is('hello', 'hello'))
+
+  // What is a proxy object
+
+  /*
+  UrL :-https://www.javascripttutorial.net/es6/javascript-proxy/
+  URL :- https://djoech.medium.com/javascript-proxy-be9ab587bab#:~:text=The%20Proxy%20object%20is%20used,%2C%20function%20invocation%2C%20etc).
+
+
+
+  */
+
+// Q.200 What is the main difference between Object.values and Object.entries method
+
+
+/*
+enterise me key value ka Array return karnta 
+value me only value
+
+*/ 
+    
+ 
+// for (const Value of Object.values(product)) {
+    
+//   console.log(Value)
+// }
+
+// for (const Value of Object.entries(product)) {
+    
+//   console.log(Value)
+// }
+
+// console.log(Object.entries(product)) 
+
+// Q.202 How do you create an object with prototype;
+
+// by useing obect.create()
+
+// Q.216 What are javascript accessors
+
+/*
+pending 
+geeter seeter
+
+
+*/
