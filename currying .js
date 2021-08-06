@@ -112,5 +112,5 @@ console.log(nameTest)
 
 // use of bind method is the procces of currying
 
-// the main purpose of currying resuable code
+// the main purpose of currying resuable code;
 
